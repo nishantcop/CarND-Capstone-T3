@@ -1,4 +1,23 @@
-This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
+[Arch_Diag]: ./imgs/system_arch.png "Arch_Diag"
+
+# Capstone Project - Introduction
+The System Integration project is the final project of the Udacity Self-Driving Car Engineer Nanodegree. In this project We have built ROS nodes to implement traffic light detection, PID control, and waypoint following. Initially this software system will be tested on a simulator, later, this will be deployed on Carla to autonomously drive it around a test track.
+
+For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f
+50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
+
+# System Architecture Diagram
+![Arch_Diag]
+
+## Team Intro
+### Team Name: CDriving
+### Team Members
+* Bajrang Chapola `(Project Contribution: Team Lead, PID Controller)` - dev.chapola@gmail.com
+* Nishant Rana `(Project Contribution: Traffic Light Detection)` - nishantcop@gmail.com 
+* Jian Kang `(Project Contribution: Train CNN model for traffic light detection)` -  kangjiankarl@163.com
+* Muhammad Al-Digeil `(Project Contribution: Train CNN model for traffic detection)` - digeil@acm.org
+* Melanie Schmidt-Wolf `(Project Contribution: Waypoint updater)` - melanie.schmidt-wolf@web.de
+## System Installation
 
 Please use **one** of the two installation options, either native **or** docker installation.
 
