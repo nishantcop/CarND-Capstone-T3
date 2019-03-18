@@ -110,3 +110,8 @@ cd CarND-Capstone/ros
 roslaunch launch/site.launch
 ```
 5. Confirm that traffic light detection works on real life images
+
+
+## Traffic light detection based on SSD-MobileNetV2
+
+The traffic light detection subsystem is based on a trained SSD-MobileNetV2 CNN model. The implementation details are under the [link](https://github.com/karlTUM/udacity_traffic_light_detection).
