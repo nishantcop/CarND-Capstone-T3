@@ -11,11 +11,31 @@ For more information about the project, see the project introduction [here](http
 ## Team Intro
 ### Team Name: CDriving
 ### Team Members
-* Bajrang Chapola `(Project Contribution: Team Lead, PID Controller)` - dev.chapola@gmail.com
-* Nishant Rana `(Project Contribution: Traffic Light Detection)` - nishantcop@gmail.com 
-* Jian Kang `(Project Contribution: Train CNN model for traffic light detection)` -  kangjiankarl@163.com
-* Muhammad Al-Digeil `(Project Contribution: Train CNN model for traffic detection)` - digeil@acm.org
-* Melanie Schmidt-Wolf `(Project Contribution: Waypoint updater)` - melanie.schmidt-wolf@web.de
+* Bajrang Chapola `(Project Contribution: Team Lead)` - dev.chapola@gmail.com
+* Nishant Rana `(Project Contribution: Team Member)` - nishantcop@gmail.com 
+* Jian Kang `(Project Contribution:  Team Member)` -  kangjiankarl@163.com
+* Muhammad Al-Digeil `(Project Contribution:  Team Member)` - digeil@acm.org
+* Melanie Schmidt-Wolf `(Project Contribution:  Team Member)` - melanie.schmidt-wolf@web.de
+
+## How we managed work in our team
+
+One important aspect of working on a team to complete this project was defining a good
+schedule with milestones for completion. 
+In terms of work division, this project has two main components, training a model to
+identify the waypoint associated with the nearest red light in the direction of travel of the
+car, and waypoint management and motion control. These tasks can be divided into a
+sequence of two asynchronous tasks followed by integration and testing.
+The members of our team selected what aspect to work on initially based on personal
+preference, knowing that as the project evolved we would all be involved in a wider view
+of it. Jian Kang  and Muhammad Al-Digeil predominantly worked on the model for the traffic light detector
+while Bajrang Chapola, Nishant Rana and Melanie Schmidt-Wolf predominantly worked on the waypoint management and motion control. 
+Our team predominately used Slack to facilitate communications, augmented by e-mail
+correspondence and a few video conference calls used to meet each other and check in
+on progress during the integration phase. We opted to use a single GitHub repo with
+privileges granted all team members. Over the course of the project we created new
+branches for new features. As branches became outdated we deleted them to reduce
+repository clutter, focusing mainly on the branch we would turn in.
+
 ## System Installation
 
 Please use **one** of the two installation options, either native **or** docker installation.
